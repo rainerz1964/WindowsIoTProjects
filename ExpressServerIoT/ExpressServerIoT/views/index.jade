@@ -1,0 +1,13 @@
+﻿extends layout
+
+block content
+  h1= title
+  p
+  section.main
+    for el in json
+        h2 #{el.name}
+         form(action='switching/'+el.id , method='post')
+            .switch.demo3
+                input(type='checkbox', name='switch', value='true', checked=el.state, onclick="this.form.submit()")
+                label
+                    i

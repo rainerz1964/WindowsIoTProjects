@@ -1,0 +1,102 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.24720.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "rfm69", "rfm69\rfm69.csproj", "{EB3B4CEA-C24F-4154-B129-667A8C12C40E}"
+	ProjectSection(ProjectDependencies) = postProject
+		{D1C78469-8B5C-4D3D-A2B4-485B2F3BD974} = {D1C78469-8B5C-4D3D-A2B4-485B2F3BD974}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "rfm69Base", "rfm69Base\rfm69Base.csproj", "{D1C78469-8B5C-4D3D-A2B4-485B2F3BD974}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "rfmWebApi", "rfmWebApi\rfmWebApi.csproj", "{BE9811C8-A8D1-433E-BBEC-3CF07A8EC137}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|ARM = Debug|ARM
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|Any CPU = Release|Any CPU
+		Release|ARM = Release|ARM
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EB3B4CEA-C24F-4154-B129-667A8C12C40E}.Debug|Any CPU.ActiveCfg = Debug|x86
+		{EB3B4CEA-C24F-4154-B129-667A8C12C40E}.Debug|ARM.ActiveCfg = Debug|ARM
+		{EB3B4CEA-C24F-4154-B129-667A8C12C40E}.Debug|ARM.Build.0 = Debug|ARM
+		{EB3B4CEA-C24F-4154-B129-667A8C12C40E}.Debug|ARM.Deploy.0 = Debug|ARM
+		{EB3B4CEA-C24F-4154-B129-667A8C12C40E}.Debug|x64.ActiveCfg = Debug|x64
+		{EB3B4CEA-C24F-4154-B129-667A8C12C40E}.Debug|x64.Build.0 = Debug|x64
+		{EB3B4CEA-C24F-4154-B129-667A8C12C40E}.Debug|x64.Deploy.0 = Debug|x64
+		{EB3B4CEA-C24F-4154-B129-667A8C12C40E}.Debug|x86.ActiveCfg = Debug|x86
+		{EB3B4CEA-C24F-4154-B129-667A8C12C40E}.Debug|x86.Build.0 = Debug|x86
+		{EB3B4CEA-C24F-4154-B129-667A8C12C40E}.Debug|x86.Deploy.0 = Debug|x86
+		{EB3B4CEA-C24F-4154-B129-667A8C12C40E}.Release|Any CPU.ActiveCfg = Release|x86
+		{EB3B4CEA-C24F-4154-B129-667A8C12C40E}.Release|ARM.ActiveCfg = Release|ARM
+		{EB3B4CEA-C24F-4154-B129-667A8C12C40E}.Release|ARM.Build.0 = Release|ARM
+		{EB3B4CEA-C24F-4154-B129-667A8C12C40E}.Release|ARM.Deploy.0 = Release|ARM
+		{EB3B4CEA-C24F-4154-B129-667A8C12C40E}.Release|x64.ActiveCfg = Release|x64
+		{EB3B4CEA-C24F-4154-B129-667A8C12C40E}.Release|x64.Build.0 = Release|x64
+		{EB3B4CEA-C24F-4154-B129-667A8C12C40E}.Release|x64.Deploy.0 = Release|x64
+		{EB3B4CEA-C24F-4154-B129-667A8C12C40E}.Release|x86.ActiveCfg = Release|x86
+		{EB3B4CEA-C24F-4154-B129-667A8C12C40E}.Release|x86.Build.0 = Release|x86
+		{EB3B4CEA-C24F-4154-B129-667A8C12C40E}.Release|x86.Deploy.0 = Release|x86
+		{D1C78469-8B5C-4D3D-A2B4-485B2F3BD974}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D1C78469-8B5C-4D3D-A2B4-485B2F3BD974}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D1C78469-8B5C-4D3D-A2B4-485B2F3BD974}.Debug|ARM.ActiveCfg = Debug|ARM
+		{D1C78469-8B5C-4D3D-A2B4-485B2F3BD974}.Debug|ARM.Build.0 = Debug|ARM
+		{D1C78469-8B5C-4D3D-A2B4-485B2F3BD974}.Debug|x64.ActiveCfg = Debug|x64
+		{D1C78469-8B5C-4D3D-A2B4-485B2F3BD974}.Debug|x64.Build.0 = Debug|x64
+		{D1C78469-8B5C-4D3D-A2B4-485B2F3BD974}.Debug|x86.ActiveCfg = Debug|x86
+		{D1C78469-8B5C-4D3D-A2B4-485B2F3BD974}.Debug|x86.Build.0 = Debug|x86
+		{D1C78469-8B5C-4D3D-A2B4-485B2F3BD974}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D1C78469-8B5C-4D3D-A2B4-485B2F3BD974}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D1C78469-8B5C-4D3D-A2B4-485B2F3BD974}.Release|ARM.ActiveCfg = Release|ARM
+		{D1C78469-8B5C-4D3D-A2B4-485B2F3BD974}.Release|ARM.Build.0 = Release|ARM
+		{D1C78469-8B5C-4D3D-A2B4-485B2F3BD974}.Release|x64.ActiveCfg = Release|x64
+		{D1C78469-8B5C-4D3D-A2B4-485B2F3BD974}.Release|x64.Build.0 = Release|x64
+		{D1C78469-8B5C-4D3D-A2B4-485B2F3BD974}.Release|x86.ActiveCfg = Release|x86
+		{D1C78469-8B5C-4D3D-A2B4-485B2F3BD974}.Release|x86.Build.0 = Release|x86
+		{BE9811C8-A8D1-433E-BBEC-3CF07A8EC137}.Debug|Any CPU.ActiveCfg = Debug|x86
+		{BE9811C8-A8D1-433E-BBEC-3CF07A8EC137}.Debug|ARM.ActiveCfg = Debug|ARM
+		{BE9811C8-A8D1-433E-BBEC-3CF07A8EC137}.Debug|ARM.Build.0 = Debug|ARM
+		{BE9811C8-A8D1-433E-BBEC-3CF07A8EC137}.Debug|ARM.Deploy.0 = Debug|ARM
+		{BE9811C8-A8D1-433E-BBEC-3CF07A8EC137}.Debug|x64.ActiveCfg = Debug|x64
+		{BE9811C8-A8D1-433E-BBEC-3CF07A8EC137}.Debug|x64.Build.0 = Debug|x64
+		{BE9811C8-A8D1-433E-BBEC-3CF07A8EC137}.Debug|x64.Deploy.0 = Debug|x64
+		{BE9811C8-A8D1-433E-BBEC-3CF07A8EC137}.Debug|x86.ActiveCfg = Debug|x86
+		{BE9811C8-A8D1-433E-BBEC-3CF07A8EC137}.Debug|x86.Build.0 = Debug|x86
+		{BE9811C8-A8D1-433E-BBEC-3CF07A8EC137}.Debug|x86.Deploy.0 = Debug|x86
+		{BE9811C8-A8D1-433E-BBEC-3CF07A8EC137}.Release|Any CPU.ActiveCfg = Release|x86
+		{BE9811C8-A8D1-433E-BBEC-3CF07A8EC137}.Release|ARM.ActiveCfg = Release|ARM
+		{BE9811C8-A8D1-433E-BBEC-3CF07A8EC137}.Release|ARM.Build.0 = Release|ARM
+		{BE9811C8-A8D1-433E-BBEC-3CF07A8EC137}.Release|ARM.Deploy.0 = Release|ARM
+		{BE9811C8-A8D1-433E-BBEC-3CF07A8EC137}.Release|x64.ActiveCfg = Release|x64
+		{BE9811C8-A8D1-433E-BBEC-3CF07A8EC137}.Release|x64.Build.0 = Release|x64
+		{BE9811C8-A8D1-433E-BBEC-3CF07A8EC137}.Release|x64.Deploy.0 = Release|x64
+		{BE9811C8-A8D1-433E-BBEC-3CF07A8EC137}.Release|x86.ActiveCfg = Release|x86
+		{BE9811C8-A8D1-433E-BBEC-3CF07A8EC137}.Release|x86.Build.0 = Release|x86
+		{BE9811C8-A8D1-433E-BBEC-3CF07A8EC137}.Release|x86.Deploy.0 = Release|x86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 4
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = https://rainerz1964.visualstudio.com/defaultcollection
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = rfm69Base\\rfm69Base.csproj
+		SccProjectName1 = rfm69Base
+		SccLocalPath1 = rfm69Base
+		SccProjectUniqueName2 = rfm69\\rfm69.csproj
+		SccProjectName2 = rfm69
+		SccLocalPath2 = rfm69
+		SccProjectUniqueName3 = rfmWebApi\\rfmWebApi.csproj
+		SccProjectName3 = rfmWebApi
+		SccLocalPath3 = rfmWebApi
+	EndGlobalSection
+EndGlobal
